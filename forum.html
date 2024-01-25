@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>同好论坛</title>
+</head>
+<style>
+    .nav {
+             height: 40px;
+             /*background:linear-gradient(#000000,#00fff5);*/
+             background:#333;
+         }
+         .nav a{
+             color:#fff;
+             padding:10px 20px;
+             display:inline-block;
+             text-decoration:none;
+         }
+         .nav a:hover{
+             background:#bbb;
+             color:#000;
+         }
+         .lside{
+             width:500px;
+             float:left;
+             border:2px solid black;
+             border-radius:10px 10px 10px 10px;
+         }
+  </style>
+<body>
+    
+    <div class="main">
+        <div class="header">
+            <h1>同好论坛</h1>
+        </div>
+        <div class="content">
+            <h3 style="text-align:center;">请输入您要寻找同好的领域：</h3>
+            <h3 style="text-align:center;">
+                <input id="username"><br>
+                身份：
+                <input type="radio" id="identity" value="student">学生
+                <input type="radio" id="identity" value="teacher">教师<br>
+                <button>搜索</button>
+            <script src="login.js"></script>
+        </div>
+</body>
+</html>
